@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar-nav a{
+    color:white !important;
+}
+.navbar-collapse{
+    background-color: #cc0000;
+}
+.navbar-nav a:hover,.navbar-nav a:focus{
+   background-color:#ff6600 !important;
+}
+.navbar-toggle{
+    margin-top:15px;
+    border:1px solid white;
+}
+.navbar-default{
+    font-family: 'Times New Roman', Times, serif;
+    margin:-2px -2px 0px -2px;
+    height: 70px;
+    background-color: #cc0000;
+}
+.navbar-brand h1{
+    margin:0px !important;
+    color:white;
+    transition: all 0.4s ease;
+}
+.navbar-brand h1:hover{
+    color:orange;
+}
+.navbar-collapse{
+    padding-top:10px;
+    font-size:1.4em;
+}
+.second{
+    padding-top:3px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:white !important;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+    background-color: #cc0000;
+}
+.quote{
+    padding-top:40px;
+    font-size:4em;
+    color:#cc0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.jumobotron{
+    padding:0 !important;
+    margin:0 !important;
+}
