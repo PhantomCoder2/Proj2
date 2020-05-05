@@ -166,9 +166,17 @@ ol li {
         text-align: center !important;
     }
 }
-@media(min-width:400px) and (max-width:600px){
+@media(max-width:600px){
+    .quote{
+        font-size:6vw;
+    }
+    .body-items img{
+        width:70%;
+        margin-left:40px;
+    }
     .subs{
-        margin-left:60px;
+        font-size:22px;
+        margin:auto;
     }
     footer{
         text-align:center;
@@ -177,6 +185,7 @@ ol li {
         text-align:center !important;
     }
 }
+/*End MEDIA QUERIRES*/
 /*FOOTER*/
 footer{
     margin-top:30px;

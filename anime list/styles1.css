@@ -43,8 +43,65 @@ body{
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
     background-color: #cc0000;
 }
+/*-----MAIN BODY-------*/
+.container{
+    padding-top:40px;
+}
+.jumbotron{
+    padding:0 !important;
+}
+.items p{
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*<-------END------->*/
+/*<--MEDIA QUERIES-->*/
+@media(min-width:1200px){
+    .container{
+        padding-top:60px;
+    }
+    .jumbotron{
+        background: url(293311_1150x656.jpg) center no-repeat;
+        height:600px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .container{
+        padding-top:60px;
+    }
+    .jumbotron{
+        background: url(293311_1_1100x656.jpg) center no-repeat;
+        height:550px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .container{
+        padding-top:60px;
+    }
+    .jumbotron{
+        background: url(293311_2_1000x656.jpg) center no-repeat;
+        height:450px;
+    }
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
+    }
+}
+@media(max-width:768px){
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
+    }
+}
 
 
+
+/*<--END OF QUERIES-->*/
 /*FOOTER*/
 footer{
     margin-top:30px;
