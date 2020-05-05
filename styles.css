@@ -2,6 +2,7 @@ body{
     margin:0;
     padding:0;
 }
+
 .navbar-nav a{
     color:white !important;
 }
@@ -92,11 +93,12 @@ ol li {
 .subs{
     font-family: Arial, Helvetica, sans-serif;
     border-radius:5px;
-    font-size:15p;
+    font-size:30px;
     color:#cc0000;
+    padding-bottom: 40px;
     background-color:white;
     transition:all 0.3s ease-in-out;
-    margin-left:300px;
+    margin-left:370px;
     border:2px solid #3c4245;
     font-weight: bold;
     height:40px;
@@ -113,11 +115,19 @@ ol li {
     .container .jumbotron{
         padding:0 !important;
     }
+    .jumbotron{
+        background: url(hd_1150x600.jpg) center no-repeat;
+        height:656px;
+    }
 }
 @media(min-width:992px) and (max-width:1199px){
     .jumbotron{
         background: url(1_1100x656.jpg) center no-repeat;
         height:550px;
+    }
+    .subs{
+        margin-top:10px;
+        
     }
 }
 @media(min-width:768px) and (max-width:991px){
@@ -126,6 +136,75 @@ ol li {
         height:450px;
     }
     .subs{
-        text-align:center;
+        margin-top:10px;
+        margin-left:140px;
+    }
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
     }
 }
+
+@media(min-width:600px) and (max-width:767px){
+    .quote{
+        font-size:6vw;
+    }
+    .subs{
+        
+        margin-left:130px;
+    }
+    .body-items img{
+        width:70%;
+        margin-left:40px;
+    }
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    .subs{
+        margin-left:60px;
+    }
+    footer{
+        text-align:center;
+    }
+    .cpy{
+        text-align:center !important;
+    }
+}
+/*FOOTER*/
+footer{
+    margin-top:30px;
+    background-color: #cc0000;
+    font-size:20px;
+    padding:10px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#660033;
+}
+.icons{
+    text-align: center;
+    display: inline-block;
+}
+.icons a{
+    padding-left:10px;
+}
+.cpy{
+    text-align: right;
+}
+
+/*END FOOTER*/
