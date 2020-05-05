@@ -19,7 +19,7 @@ body{
 .navbar-default{
     font-family: 'Times New Roman', Times, serif;
     margin:-2px -1px 0px -1px;
-    height: 70px;
+    padding:10px;
     background-color: #cc0000;
 }
 .navbar-brand h1{

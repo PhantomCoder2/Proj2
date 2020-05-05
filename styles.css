@@ -2,7 +2,6 @@ body{
     margin:0;
     padding:0;
 }
-
 .navbar-nav a{
     color:white !important;
 }
@@ -19,7 +18,7 @@ body{
 .navbar-default{
     font-family: 'Times New Roman', Times, serif;
     margin:-2px -1px 0px -1px;
-    height: 70px;
+    padding:10px;
     background-color: #cc0000;
 }
 .navbar-brand h1{
@@ -48,8 +47,9 @@ body{
     font-size:3em;
     color:#cc0000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border:none;
+    border:none;   
 }
+
 .jumbotron{
     padding:0 !important;
 }
@@ -112,29 +112,18 @@ ol li {
 }
 /*Media Queries*/
 @media(min-width:1200px){
-    .container .jumbotron{
-        padding:0 !important;
-    }
-    .jumbotron{
-        background: url(hd_1150x600.jpg) center no-repeat;
-        height:656px;
+    .carousel{
+        margin-left:80px;
+        margin-right:120px;
     }
 }
 @media(min-width:992px) and (max-width:1199px){
-    .jumbotron{
-        background: url(1_1100x656.jpg) center no-repeat;
-        height:550px;
-    }
     .subs{
         margin-top:10px;
         
     }
 }
 @media(min-width:768px) and (max-width:991px){
-    .jumbotron{
-        background: url(2_1000x656.jpg) center no-repeat;
-        height:450px;
-    }
     .subs{
         margin-top:10px;
         margin-left:140px;
