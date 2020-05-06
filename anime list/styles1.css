@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar-nav a{
@@ -44,7 +45,7 @@ body{
     background-color: #cc0000;
 }
 /*-----MAIN BODY-------*/
-.container{
+.top{
     padding-top:40px;
 }
 .jumbotron{
@@ -52,9 +53,30 @@ body{
 }
 .items p{
     font-size:22px;
-    font-family: 'Times New Roman', Times, serif;
 }
-
+/*Ordered List*/
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+  }
+  ol li:before {
+      color:#ff6600;
+    content: counter(list) ".";
+    left:-24px;
+    top:-2px;
+    font-size:22px;
+    position: absolute;
+    text-align: right;
+    width:36px;
+  }
+/* End*/
+li{
+    font-size:22px;
+}
+li h3{
+    color:#cc0000;
+}
 /*<-------END------->*/
 /*<--MEDIA QUERIES-->*/
 @media(min-width:1200px){
