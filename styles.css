@@ -62,6 +62,9 @@ body{
     color: #ffcc00;
 }
 /*Ordered list*/
+.active a{
+    background-color: #e75204 !important;
+}
 ol li {
     counter-increment: list;
     list-style-type: none;

@@ -54,6 +54,9 @@ body{
 .items p{
     font-size:22px;
 }
+.active a{
+    background-color: #ff6600 !important;
+}
 /*Ordered List*/
 ol li {
     counter-increment: list;
