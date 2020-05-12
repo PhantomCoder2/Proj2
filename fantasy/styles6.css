@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav a{
+    color:white !important;
+}
+.navbar-collapse{
+    background-color: #cc0000;
+}
+.navbar-nav a:hover,.navbar-nav a:focus{
+   background-color:#ff6600 !important;
+}
+.navbar-toggle{
+    margin-top:15px;
+    border:1px solid white;
+}
+.navbar-default{
+    font-family: 'Times New Roman', Times, serif;
+    margin:-2px -1px 0px -1px;
+    padding:10px;
+    background-color: #cc0000;
+    margin-bottom: 80px;
+}
+.navbar-brand h1{
+    margin:0px !important;
+    color:white;
+    transition: all 0.4s ease;
+}
+.navbar-brand h1:hover{
+    color:orange;
+}
+.navbar-collapse{
+    padding-top:10px;
+    font-size:1.4em;
+}
+.second{
+    padding-top:3px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:white !important;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+    background-color: #cc0000;
+}
+/*MAIN BODY*/
+.container .jumbotron{
+    padding:0px;
+}
+.jumbotron{
+    padding:0px;
+}
+.container span{
+       color:#cc0000;
+}
+.container h2{
+    color: #cc0000;
+}
+h4{
+    font-size:22px;
+}
+.active a{
+    background-color: #ff6600 !important;
+}
+ol{
+    counter-reset: list 11;
+}
+ol li{
+    counter-increment: list -1;
+    list-style-type: none;
+    position: relative;
+}
+ol h3{
+    color: #ff6600;
+}
+ol li:before{
+    color:#cc0000;
+    content: counter(list) ".";
+    left:-24px;
+    top:-2px;
+    font-size:22px;
+    position: absolute;
+    text-align: right;
+    width:36px;
+}
+ol p{
+    
+    font-size:18px;
+}
+
+/*END*/
+
+/*MEDIA QUERIES*/
+@media(min-width:1200px){
+    .jumbotron{
+        background: url(3_1150x656.jpg) center no-repeat;
+        height:600px;
+    }
+}
+@media(min-width:992px) and (max-width:1191px){
+    .jumbotron{
+        background:url(1_1100x656.jpg) center no-repeat;
+        height:550px;
+        width:100%;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .jumbotron{
+        background: url(2_1000x656.jpg) center no-repeat;
+        height:500px;
+        width:100%;
+    }
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
+    }
+}
+@media(max-width:768px){
+    footer{
+        text-align: center;
+    }
+    .cpy{
+        text-align: center !important;
+    }
+}
+/*<---END---->*/
+
+/*FOOTER*/
+footer{
+    margin-top:30px;
+    background-color: #cc0000;
+    font-size:20px;
+    padding:10px;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#660033;
+}
+.icons{
+    text-align: center;
+    display: inline-block;
+}
+.icons a{
+    padding-left:10px;
+}
+.cpy{
+    text-align: right;
+}
+
+/*END FOOTER*/
