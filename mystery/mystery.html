@@ -9,6 +9,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles5.css">
     <link href="//use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" type="text/css" />
+    <script>
+        $(document).click(function(e) {
+        	if (!$(e.target).is('.navbartoggle')) {
+    	    $('#mycollapsenav').collapse('hide');	    
+        }  
+        });
+    </script>
 </head>
 <body>
     <header>

@@ -8,6 +8,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function but(){
+          btn=document.getElementById('sub')
+          btn.innerHTML='<i class = "fa fa-envelope"></i> Subscribed';
+          document.getElementById('sub').style.width='350px';
+        } 
+        $(document).click(function(e) {
+        	if (!$(e.target).is('.navbartoggle')) {
+    	    $('#mycollapsenav').collapse('hide');	    
+        }  
+        });
+    </script>
     <link href="//use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -16,7 +28,8 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="index.html" class="navbar-brand"><h1>OTAKUS</h1></a>
-                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mycollapsenav" aria-haspopup="true" aria-expanded="false">
+                    <button id="navbartoggle" class="navbar-toggle collapsed" type="button" data-toggle="collapse" 
+                    data-target="#mycollapsenav" aria-haspopup="true" aria-expanded="false">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -96,9 +109,9 @@
                    </li>
                </ol>
             </div class="newsletter">
-            <h3 class="anime-list">Want to know which anime series to watch? Then head over to <a href="#">Anime List</a> and Check it Out
+            <h3 class="anime-list">Want to know which anime series to watch? Then head over to <a href="anime list/anime.html">Anime List</a> and Check it Out
             and on the Subscribe button to keep yourself updated :) </h3>
-            <button type="button" class="subs">Subscribe to our Newsletter</button>
+            <button type="button" id="sub" class="subs" onclick="but()">Subscribe to our Newsletter</button>
             </div>
             </div>
         <footer>

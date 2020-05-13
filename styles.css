@@ -147,6 +147,11 @@ ol li {
         
         margin-left:130px;
     }
+    .dropdown-menu a{
+        color: white !important;
+        width:100% !important;
+        font-size: 20px;
+    }
     .body-items img{
         width:70%;
         margin-left:40px;
@@ -165,6 +170,11 @@ ol li {
     .body-items img{
         width:70%;
         margin-left:40px;
+    }
+    .dropdown-menu a{
+        color: white !important;
+        width:100% !important;
+        font-size: 20px;
     }
     .subs{
         font-size:22px;
