@@ -29,8 +29,8 @@ widthMatch.addEventListener('change', e=> {
 });
 window.addEventListener('scroll',e=>{
   c1.classList.add('animated','fadeInUp','delay-1s');
-  c2.classList.add('animated','fadeInUp','delay-2s');
-  c3.classList.add('animated','fadeInUp','delay-3s');
-  c4.classList.add('animated','fadeInUp','delay-4s');
+  c2.classList.add('animated','fadeInUp','delay-1.5s');
+  c3.classList.add('animated','fadeInUp','delay-2s');
+  c4.classList.add('animated','fadeInUp','delay-2.5s');
 });
 
