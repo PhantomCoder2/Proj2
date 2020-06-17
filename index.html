@@ -4,117 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script>
-        function but(){
-          btn=document.getElementById('sub')
-          btn.innerHTML='<i class = "fa fa-envelope"></i> Subscribed';
-          document.getElementById('sub').style.width='350px';
-        } 
-        $(document).click(function(e) {
-        	if (!$(e.target).is('.navbartoggle')) {
-    	    $('#mycollapsenav').collapse('hide');	    
-        }  
-        });
-    </script>
-    <link href="//use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="index.html" class="navbar-brand"><h1>OTAKUS</h1></a>
-                    <button id="navbartoggle" class="navbar-toggle collapsed" type="button" data-toggle="collapse" 
-                    data-target="#mycollapsenav" aria-haspopup="true" aria-expanded="false">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="mycollapsenav">
-                   <ul class="nav navbar-nav text-center">
-                       <li class="home active"><a href="index.html"><span class="glyphicon glyphicon-home"> Home</span></a></li>
-                       <li class="second"><a href="anime list/anime.html"> Anime List</a></li>
-                   </ul>
-                   <ul class="nav navbar-nav navbar-right text-center">
-                       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>  Log In</a></li>
-                   </ul>
-                </div>
+      <div class="overlay">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="#" class="navbar-brand d-none reveal">OTAKU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon my-toggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Animes</a>
+                </li>
+                <a href="#" class="navbar-brand hide">OTAKU</a>
+
+                <li class="nav-item end">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
             </div>
-        </nav>
-    </header>   
-    <div>
-        <blockquote class="quote text-center"><q>We are OTAKUS (Translation:Hardcore Anime Watchers), You Name It We Know It</q></blockquote>
-    </div>
-    <div class="carousel slide" id="carouselsli" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#carouselsli" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselsli" data-slide-to="1"></li>
-            <li data-taget="#carouselsli" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="0_1150x656.jpg" alt="" class=" w-100">
-            </div>
-            <div class="item">
-                <img src="2_1150x656.jpg" alt="" class=" w-100">
-            </div>
-            <div class="item">
-                <img src="hd_1200x656.jpg" alt="" class=" w-100">
-            </div>
+          </nav>
         </div>
-        <a href="#carouselsli" class="left carousel-control" data-slide="prev" role="button">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a href="#carouselsli" class="right carousel-control" data-slide="next" role="button">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
+    </header>   
+
          <div class="container">
- 
-            <div class="items">
-               <h2>Top Stories <span class="glyphicon glyphicon-fire"></span>: </span></h2>
-               <h3 class="about">Some of the Top Anime Series that got delayed due to the effects of Covid-19:</h3>
-               <ol class="body-items">
-                  <li><h3>&nbsp;&nbsp;Sword Art Online: Alicization - War of Underworld</h3><br>
-                    <img src="sao_500x250.jpg" alt=""><br><br>
-                    <p>The official website for the Sword Art Online: Alicization anime announced on Friday that
-                    the Sword Art Online: Alicization War of Underworld Part 2 anime is postponed to July due
-                    to effects of the spread of the COVID-19 coronavirus illness in Japan.</p>
-                  </li>
-                   <li><h3>&nbsp;&nbsp;My Teen Romantic Comedy SNAFU Climax</h3>
-                   <img src="OreGairu_500x250.jpg" alt=""><br><br>
-                    <p>Official Statement By The Producers: <q>WE ARE SAD TO ANNOUNCE THAT “MY YOUTH ROMANTIC COMEDY SNAFU CLIMAX”,
-                    WHICH WAS SCHEDULED TO BE BROADCAST FROM THIS SPRING WAS POSTPONED DUE TO THE SPREAD OF THE NEW 
-                    CORONAVIRUS. THANK YOU FOR YOUR UNDERSTANDING.</q></p>
-                   </li>
-                   <li><h3>&nbsp;&nbsp;A Certain Scientific Railgun T </h3>
-                   <img src="acsr_500.jpg" alt=""><br><br>
-                    <p>The official website for the A Certain Scientific Railgun T (Toaru Kagaku no Railgun T) anime announced 
-                    on Saturday that the anime's 13th episode is delayed due to the new coronavirus disease (COVID-19) 
-                    situation. The episode was scheduled to air on April 24, but the 12th episode will re-air instead 
-                    on that date.The staff will reveal later when the 13th episode will air.</p>
-                   </li>
-                   <li><h3>&nbsp;&nbsp;Re:ZERO Season 2</h3>
-                    <img src="Re-Zero_500x250.jpg" alt=""><br><br>
-                    <p>The official website of the Re:ZERO -Starting Life in Another World- anime revealed on 
-                     Monday that the anime's second season is delayed from April to July. The staff explained
-                     that "the global issues of the COVID-19 coronavirus illness have had a big effect on the
-                     production" of the show.The staff will reveal the new start date, time, and channels at a later date.</p>
-                   </li>
-               </ol>
-            </div class="newsletter">
+          <div class="items">
+            <h2>Top Stories <span><i class="fas fa-fire"></i></span>: </span></h2>
+            <h3 class="about">Some of the Top Anime Series that got delayed due to the effects of Covid-19:</h3>
+            <div class="card mb-3 border-danger  c1" >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="sao_500x250_1_400x250.jpg" alt="" class="card-img img1">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-danger mt-3">Sword Art Online: Alicization - War of Underworld</h5>
+                    <p class="card-text text-center mt-4">The official website for the Sword Art Online: Alicization anime announced on Friday that
+                      the &nbsp;Sword Art Online: Alicization War of Underworld Part 2 anime is postponed to July due
+                      to effects of the spread of the COVID-19 coronavirus illness in Japan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-warning  c2">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                <img src="OreGairu_500x250_400x250.jpg" alt="" class="card-img img2">
+              </div>
+              <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning mt-3">My Teen Romantic Comedy SNAFU Climax</h5>
+                <p class="card-text text-center mt-4">&nbsp;&nbsp;&nbsp;Official Statement By The Producers: <q>WE ARE SAD
+                   TO ANNOUNCE THAT “MY YOUTH &nbsp;ROMANTIC COMEDY SNAFU CLIMAX”,
+                  WHICH WAS SCHEDULED TO BE BROADCAST FROM THIS SPRING WAS POSTPONED DUE TO THE SPREAD OF THE NEW 
+                  CORONAVIRUS. THANK YOU FOR YOUR UNDERSTANDING.</p>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="card text-center mb-3 border-info c3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="acsr_500_1_400x250.jpg" alt="" class="card-img img3">
+                </div>
+                <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center text-info mt-3">A Certain Scientific Railgun T</h5>
+                <p class="text-center card-text mt-4">The official website for the A Certain Scientific Railgun T (Toaru Kagaku no Railgun T) anime announced 
+                  on Saturday that the anime's 13th episode is delayed due to the new coronavirus disease (COVID-19) 
+                  situation. The episode was scheduled to air on April 24, but the 12th episode will re-air instead 
+                  on that date.The staff will reveal later when the 13th episode will air.</p>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="card text-center mb-3 border-success  c4">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="Re-Zero_500x250_400x250.jpg" alt="" class="card-img img4">
+                </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title text-center text-success mt-3">Re:Zero Season 2</h5>
+                 <p class="card-text text-center mt-4">The official website of the Re:ZERO -Starting Life in Another World- anime revealed on 
+                  Monday that the anime's second season is delayed from April to July. The staff explained
+                  that "the global issues of the COVID-19 coronavirus illness have had a big effect on the
+                  production" of the show.The staff will reveal the new start date, time, and channels at a later date.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <!--
+            <div class="newsletter">
             <h3 class="anime-list">Want to know which anime series to watch? Then head over to <a href="anime list/anime.html">Anime List</a> and Check it Out
             and on the Subscribe button to keep yourself updated :) </h3>
             <button type="button" id="sub" class="subs" onclick="but()">Subscribe to our Newsletter</button>
-            </div>
-            </div>
-        <footer>
+            </div>-->
+       <!-- <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 p">
@@ -141,7 +137,11 @@
                     </div>
                 </div>
             </div>
-        </footer>
-
+        </footer>-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2d72685602.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 </html>
