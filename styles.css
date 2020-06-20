@@ -130,7 +130,16 @@ header{
     .h2{
         display:block !important;
     }
-    
+    .l1{
+        margin-top:40px !important;
+    }
+    .l2{
+        margin-top:80px !important;
+        overflow:hidden !important;
+    }
+    .subscribe{
+        margin-top:140px;
+    }
 }
 @media(max-width:600px){
     .nav-link{
@@ -153,6 +162,16 @@ header{
     }
     .h2{
         display:block !important;
+    }
+    .l1{
+        margin-top:40px !important;
+    }
+    .l2{
+        margin-top:80px !important;
+        overflow:hidden !important;
+    }
+    .subscribe{
+        margin-top:140px;
     }
     
 }
