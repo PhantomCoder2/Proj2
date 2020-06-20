@@ -68,37 +68,94 @@ header{
 /*END*/
 
 /*MEDIA QUERIES*/
+@media(min-width:1200px){
+    .contact{
+        margin-left:40px;
+    }
+    .quick{
+        margin-left:50px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .contact{
+        margin-left:20px;
+    }
+    .quick{
+        margin-left:50px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .contact{
+        margin-left:20px;
+    }
+    .quick{
+        margin-left:30px;
+    }
+}
 
+@media(min-width:600px) and (max-width:767px){
+    .nav-link{
+        transition:all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid #FFF;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .contact{
+        margin-top:30px;
+    }
+    .quick{
+        margin-top:30px;
+    }
+    .h1{
+        display:block !important;
+    }
+    .h2{
+        display:block !important;
+    }
+    
+}
+@media(max-width:600px){
+    .nav-link{
+        transition:all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid #FFF;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .contact{
+        margin-top:30px;
+    }
+    .quick{
+        margin-top:30px;
+    }
+    .h1{
+        display:block !important;
+    }
+    .h2{
+        display:block !important;
+    }
+    
+}
 /*<---END---->*/
 
 /*FOOTER*/
-footer{
-    margin-top:30px;
-    background-color: #cc0000;
-    font-size:20px;
-    padding:10px;
-    color:white;
-    font-weight: bold;
-    font-size:20px;
+footer p{
+    color:#6c6b75;
 }
-footer a{
-    color:white;
-    text-decoration: none;
-    transition:all 0.3s ease;
+.quick a{
+    transition:color 0.2s ease;
+    color:#6c6b75;
 }
-footer a:hover{
-    text-decoration: none;
-    color:#660033;
-}
-.icons{
-    text-align: center;
-    display: inline-block;
-}
-.icons a{
-    padding-left:10px;
-}
-.cpy{
-    text-align: right;
+.quick a:hover{
+   color:blue;
 }
 
 /*END FOOTER*/
