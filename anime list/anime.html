@@ -4,137 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles1.css">
-    <link href="//use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" type="text/css" />
-    <script>
-        $(document).click(function(e) {
-        	if (!$(e.target).is('.navbartoggle')) {
-    	    $('#mycollapsenav').collapse('hide');	    
-        }  
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="../index.html" class="navbar-brand"><h1>OTAKUS</h1></a>
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=#mycollapsenav
-                     aria-haspopup="true" aria-expanded="false">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="mycollapsenav">
-                   <ul class="nav navbar-nav text-center">
-                       <li class="home"><a href="../index.html"><span class="glyphicon glyphicon-home"> Home</span></a></li>
-                       <li class="second active"><a href="anime.html"> Anime List</a></li>
-                   </ul>
-                   <ul class="nav navbar-nav navbar-right text-center">
-                       <li><a href="#"><span class="glyphicon glyphicon-user"> Sign Up</span></a></li>
-                       <li><a href="#"><span class="glyphicon glyphicon-log-in"> Log In</span></a></li>
-                   </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+        <div class="overlay">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a href="../index.html" class="navbar-brand">OTAKU</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon my-toggler"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Animes</a>
+                  </li>
+  
+                  <li class="nav-item end">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+      </header>  
      <div class="container top">
-         <div class="jumbotron">
-              <img src="293311_5_800x600.jpg" alt="" class="img-responsive visible-xs">
-         </div>
          <div class="items">
-             <p><strong>According to MyAnimeList,</strong>there are 43 anime genres in total.<br>
+             <p class="text-center"><strong>According to MyAnimeList,</strong> <br>There are 43 anime genres in total.<br>
                 But we all know in reality, only a handful of those genres are popular.<br><br>
-                Can you find a good anime within all 43 genres? Of course. But “good” has nothing to do with popularity.<br><br>
-                From my deep understanding of the anime community, there are 6 popular genres in particular.<br>
-                Especially if you look at this from an objective point of view. Instead of basing it off opinions…
+                Can you find a good anime within all 43 genres? Of course. But “good” has nothing to do with popularity.
                 <br><br> Here are some of the top anime genres:</p>
          </div>
      </div>
      <div class="container">
-         <ol>
-              <li><h3>&nbsp;&nbsp;&nbsp;Shounen</h3>
-                  <img src="WhatsApp_Image_2020-05-06_at_12.36.09_PM_500x250.jpeg" alt="" class="img-responsive"><br>
-                  Naruto is one of the best shounen action packed anime in the history of animes.
-                  A young boy who is a host of a powerful fox named Nine Tails. He trains harder to get stronger and become the most powerful Hokage of all times.about
-                  <br>Crunchyroll has given 4.7/5.0 rating towards this show.<br>
-
-                  <br>If you want to know more action shows like naruto then click below to know more.<br>
-                  <a href="../shounen/shounen.html">Top Shounen Animes</a>
-              </li>
-              <li><h3>&nbsp;&nbsp;&nbsp;Slice of Life</h3>
-                   <img src="maxresdefault_450x250.jpg" alt="" class="img-responsive"><br>
-                   Slice of life never used to be as popular as it is today. You could say shows like <b> Clannad, Anohana:The Flower We Saw That Day, Tamako Market </b>are the reason it’s so popular today.<br><br>
-
-                   Slice of life is one of the most <b>realistic</b>. That’s partly why it’s so loved, hence “slice of life”.<br> And because it usually strays from the typical “supernatural” elements, it tends to be more relatable for all ages.
-                   <br> Click below for Slice of Life Animes.<br>
-                   <a href="../slice/slice.html">Top Slice of Life Animes</a>
-              </li>
-              <li><h3>&nbsp;&nbsp;&nbsp;Romance</h3>
-                   <img src="w_450x250.jpg" alt="" class="img-responsive"><br>
-                   Romance is sometimes mixed with Slice of Life, so the two genre's have helped each other grow. Romantic Comedy is one of my personal favourite choices.<br>
-                   Animes like My Teen Romantic Comedy SNAFU, Kaguya Sama: Love is War are one of best ones. But romance genre mixes well with any other genres be it action or adventure.<br>
-                   Your Lie in April is one of the best Romanctic Drama and is recommended to watch.<br><br>
-                   Click below for Romanctic Animes.<br>
-                   <a href="../romance/romance.html">Top Romanctic Animes</a>
-              </li>
-              <li><h3>&nbsp;&nbsp;&nbsp;Mystery</h3>
-                   <img src="1464175195-c602cb5d8cd54450c50803d815c174df_500x250.jpeg" alt="" class="img-responsive"><br>
-                   Mystery anime is usually filled with mysterious deaths, crimes, events, people or even objects. 
-                   The reason why they are so fun to watch is that they always keep viewers on the edge of their seats.
-                    They are full of twists and turns that often make viewers wonder what is going to happen next. 
-                   Viewers also love to follow the clues or guess how the series is going to end. <br><br>
-                   Moreover, watching mystery themed anime series allows the viewers to visit interesting and fascinating
-                    worlds. It also gives the viewers a sense of understanding about the dark side of people or how justice
-                    is going to prevail.
-                    Without further ado, here's our list of the 15 best mystery anime of all time. <br>
-                   <br>So Check out the list of top mystery filled animes.<br>
-                   <a href="../mystery/mystery.html">Top Action Animes</a>
-              </li>
-              <li><h3>&nbsp;&nbsp;&nbsp;Fantasy</h3>
-                  <img src="fate_500x250.jpg" alt="" class="img-responsive"><br>
-                  Fantasy animes are famous as it is a great way to escape the real world and dive into the virtual world. <br>
+        <div class="card mb-3 border-danger c1" >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="main-qimg-4ea729c8fca0f373600f7a163ca900b5.jpg" alt="" class="card-img img1 h-100">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-danger text-center" style="font-size:24px;">Action</h5>
+                  <hr>
+                  <p class="card-text text-center" style="font-size:18px;">Naruto is one of the best action shounen packed anime in the history of animes.
+                    A young boy who is a host of a powerful fox named Nine Tails. He trains harder to get stronger and become the most powerful Hokage of all times.about
+                    <br>Crunchyroll has given 4.7/5.0 rating towards this show.
+                    <br>If you want to know more action shows like naruto then click below to know more.<br>
+                    <a href="../shounen/shounen.html">Top Action Animes</a></p>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-danger  c1" >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="maxresdefault_450x250.jpg" alt="" class="card-img img1 h-100">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-danger" style="font-size:24px;">Slice of Life</h5>
+                  <hr>
+                  <p class="card-text text-center" style="font-size:18px;"> Slice of life is one of the most <b>realistic</b>. That’s partly why it’s so loved, hence “slice of life”.<br> And because it usually strays from the typical “supernatural” elements, it tends to be more relatable for all ages.
+                    <br> Click below for Slice of Life Animes.<br>
+                    <a href="../slice/slice.html">Top Slice of Life Animes</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-danger  c1" >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="w_450x250.jpg" alt="" class="card-img img1 h-100" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-danger" style="font-size:24px;">Romance</h5>
+                  <hr>
+                  <p class="card-text text-center" style="font-size:18px;">Romance is sometimes mixed with Slice of Life, so the two genre's have helped each other grow. Romantic Comedy is one of my personal favourite choices.<br>
+                    Animes like My Teen Romantic Comedy SNAFU, Kaguya Sama: Love is War are one of best ones. But romance genre mixes well with any other genres be it action or adventure.<br>
+                    Your Lie in April is one of the best Romanctic Drama and is recommended to watch.<br><br>
+                    Click below for Romanctic Animes.<br>
+                    <a href="../romance/romance.html">Top Romanctic Animes</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-danger  c1" >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="1464175195-c602cb5d8cd54450c50803d815c174df_500x250.jpeg" alt="" class="card-img img1 h-100">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-danger" style="font-size:24px;">Mystery</h5>
+                  <hr>
+                  <p class="card-text text-center" style="font-size:18px;"> Mystery anime is usually filled with mysterious deaths, crimes, events, people or even objects. 
+                    The reason why they are so fun to watch is that they always keep viewers on the edge of their seats.
+                     They are full of twists and turns that often make viewers wonder what is going to happen next. 
+                    Viewers also love to follow the clues or guess how the series is going to end.<br>
+                    <br>So Check out the list of top mystery filled animes.<br>
+                    <a href="../mystery/mystery.html">Top Action Animes</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-danger  c1" >
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="fate_500x250.jpg" alt="" class="card-img img1 h-100">
+              </div>
+              <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center text-danger" style="font-size:24px;">Fantasy</h5>
+                <hr>
+                <p class="card-text text-center" style="font-size:18px;">Fantasy animes are famous as it is a great way to escape the real world and dive into the virtual world.
                   Fantasy martial arts animes like Naruto, Dragon Ball already exist in these type of genres but in this selection of recommendations, 
                   I would be recommending compelling stories,epic fight scenes,great visuals, interesting concepts and some 
                   amount of love sparkling in the air. <br><br>
                   Click below for Fantasy Anime Recommendations.<br>  
-                  <a href="../fantasy/fantasy.html">Top Fantasy Animes</a>
-                </li>
-         </ol>
-     </div>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 p">
-                    <a href="#">Privacy</a>
-                </div>
-                <div class="col-md-4 icons py-5">
-                    <a href="#" class="fb-ic">
-                        <i class="fab fa-facebook-f t "> </i>
-                    </a>
-                    <a href="#" class="tw-ic">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="gplus-ic">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-                    <a href="#" class="ins-ic">
-                        <i class="fab fa-instagram "></i>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <div class="footer-copyright cpy">
-                         &copy; 2020
-                    </div>
-                </div>
+                  <a href="../fantasy/fantasy.html">Top Fantasy Animes</a></p>
+              </div>
             </div>
-        </div>
-    </footer>
+              </div>
+            </div>
+            <hr>
+              <h3 class="text-center">Enjoy the selection.Hope you like it.</h3>
+            <hr>
+          </div>
+     
+     <footer class="site-footer mt-5">
+      <div class="container">
+          <div class="row mb-5">
+              <div class="col-md-4 aboutthe">
+                <h5 style="margin-bottom:20px;">About the Otaku</h5>
+                <p>
+                  This site is a practice site. Hope you enjoyed my work.😃
+                </p>
+                <div class="icons mt-5">
+                <a href="#" class="fb-ic mr-2">
+                  <i class="fab fa-facebook-f t "> </i>
+                </a>
+                <a href="#" class="tw-ic mr-2">
+                  <i class="fab fa-twitter"></i>
+               </a>
+                <a href="#" class="gplus-ic mr-2">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+                <a href="#" class="ins-ic mr-2">
+                  <i class="fab fa-instagram "></i>
+                </a>
+              </div>
+              <hr class="h1 d-none">
+              </div>
+              <div class="col-md-4 icons contact">
+                  <h5 style="margin-bottom:20px;">Contact Info</h5>
+                  <p>Address:<br>
+                    Space Beyond this Earth On the 22nd Street of Divine. 
+                    <br><br>
+                    Telephone: +91-8617575069
+                    <br><br>
+                    Email: <br>beastbiswas23@gmail.com
+                  </p>
+                  <hr class="h2 d-none">
+              </div>
+             
+              <div class="col-md-3 quick ">
+                 <h5 style="margin-bottom:20px;">Quick Links</h5>
+                 <a href="#">Animes</a>
+                 <br><br>
+                 <a href="#">Contact Us</a>
+                 <br><br>
+                 <a href="#">Terms of Use</a>
 
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-md-center">
+              <p>Copyright © 2020 All Rights Reserved | This template is made with  by PhantomCoder</p>
+            </div>
+          </div>
+      </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2d72685602.js" crossorigin="anonymous"></script>
 </body>
 </html>
