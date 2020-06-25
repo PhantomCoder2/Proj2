@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*NAVBAR*/
+header{
+    background: url(thumb-1920-1003363.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    background : rgba(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+}
+.navbar-light {
+	background-color:transparent !important;
+	border-color:transparent !important;
+	background-image:none !important;
+    box-shadow:none;	
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF !important;
+    padding:0px 40px;
+}
+
+.nav-link {
+   font-size:20px; 
+   color:#fff !important; 
+    padding:10px 30px !important;
+}
+.nav-link:hover{
+    color: lightblue !important;
+     border-bottom: 1px solid #FFF;
+}
+.navbar-toggler {
+    margin:10px 0; 
+    background:#fff; 
+}
+/*NAVBAR ENDS*/
+/*-----MAIN BODY-------*/
+p{
+    margin-top:20px;
+    font-size:19px;
+}
+
+/*<-------END------->*/
+/*<--MEDIA QUERIES-->*/
+@media(min-width:1200px){
+    .contact{
+        margin-left:40px;
+    }
+    .quick{
+        margin-left:50px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .contact{
+        margin-left:20px;
+    }
+    .quick{
+        margin-left:50px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .contact{
+        margin-left:20px;
+    }
+    .quick{
+        margin-left:30px;
+    }
+}
+
+@media(min-width:600px) and (max-width:767px){
+    .nav-link{
+        transition:all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid #FFF;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .contact{
+        margin-top:30px;
+    }
+    .quick{
+        margin-top:30px;
+    }
+
+    
+}
+@media(max-width:600px){
+    .nav-link{
+        transition:all 0.3s ease-in-out;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid #FFF;
+    }
+    .aboutthe{
+        margin-top:30px;
+    }
+    .contact{
+        margin-top:30px;
+    }
+    .quick{
+        margin-top:30px;
+    }
+
+    
+}
+
+/*FOOTER*/
+footer p{
+    color:#6c6b75;
+}
+.quick a{
+    transition:color 0.2s ease;
+    color:#6c6b75;
+}
+.quick a:hover{
+   color:blue;
+}
+
+/*END FOOTER*/
